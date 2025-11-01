@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "descr": {
+      "landingPage": "Eine Anwendung um möglichst einfach und unkompliziert seine Lebensbereiche zu verwalten. Einkaufslisten, Vorschläge, Erledigungen, Kinder, Tiere, Urlaube, Tagesablauf, usw."
+    }
+  },
+
+"test" : {
+  "testmail" : "Email zum Testen",
+  "testpassword" : "Passwort",
+  "click" : "Get Test Log In Data"
+},
+
+  "header": {
+    "smallGreeting": "Willkommen",
+    "appName": "Simplify this Life",
+    "mainMenuText": "Hallo ",
+    "shopping": "Einkaufsliste",
+    "toDo": "Erledigungen",
+    "family": "Familie",
+    "finance": "Finanzen",
+    "trash" : "Gelöschtes"
+  },
+  "options": {
+    "buttonsName": {
+      "back": "Zurück",
+      "logOut": "Ausloggen",
+      "logIn": "Einloggen",
+      "signUp": "Registrieren",
+      "options": "Einstellungen",
+      "close" : "schließen"
+    }
+  },
+  "landingPage": {
+    "text": "Erstellt, um alles in seinem Leben möglichst einfach zu organisieren. ",
+    "header": {
+      "title": "Simplify this Life",
+      "smallText": "Willkommen",
+      "logIn": "Einloggen",
+      "signUp": "Registrieren"
+    },
+    "sayings": [
+      {
+        "text": "Lass dich nicht wegen Kleinigkeiten von den großen Dingen abbringen.",
+        "author": "Joachim Pürcher"
+      },
+      {
+        "text": "Du selbst zu sein, in einer Welt, die dich ständig anders haben will, ist die größte Errungenschaft.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "text": "Wir sehen die Welt nur einmal, in der Kindheit. Der Rest ist Erinnerung.",
+        "author": "Louise Glück"
+      },
+      {
+        "text": "Einfachheit ist die höchste Form der Vollendung",
+        "author": "Stephe Jobs"
+      }
+    ],
+    "infoText": "Simplify this life - kreiert um das Leben leichter zu organisieren",
+    "infoButton": "Mehr Infos darüber... "
+  },
+
+  "auth": {
+    "logIn": {
+      "text": "Einloggen",
+      "button": "Los gehts",
+      "success": "Einloggen erfolgreich"
+    },
+    "signUp": {
+      "text": "Registrieren",
+      "button": "Abschicken",
+      "success": "Registrierung erfolgreich"
+    },
+    "firebaseErrors": {
+      "noError": "Kein Fehler",
+      "emailExists": "E-Mail Adresse existiert bereits",
+      "wrongPassword": "E-Mail Adresse und Passwort stimmen nicht überein",
+      "userNotExists": "Der Benutzer existiert nicht",
+      "emailPwNotMatch": "E-Mail Adresse oder Passwort stimmt nicht."
+    },
+    "signUpHeader": "Registrieren",
+    "form": {
+      "firstName": {
+        "text": "Dein Vorname",
+        "placeholderError": "Du hast keinen Namen eingegeben"
+      },
+      "email": {
+        "text": "Deine E-Mail Adresse",
+        "placeholderError": "Deine E-Mail Adresse fehlt"
+      },
+      "password": {
+        "text": "Dein Passwort",
+        "placeholderError": "Lege ein Passwort fest"
+      },
+      "confirmPw": {
+        "text": "Passwort wiederholen",
+        "placeholderError": "Bitte dein Passwort bestätigen"
+      },
+      "privacy": {
+        "firstText": "Ich akzeptiere die ",
+        "link": "Datenschutzerklärung"
+      }
+    }
+  },
+
+  "features": {
+    "shopping": {
+      "mainHeader": "Einkaufen",
+      "inputForm": {
+        "amount": "Menge",
+        "unit": "Einheit",
+        "name": "Bezeichnung"
+      }
+    },
+    "toDo": {
+      "mainHeader": "Erledigungen"
+    },
+    "family": {
+      "mainHeader": "Familie"
+    },
+    "finance": {
+      "mainHeader": "Finanzen"
+    }
+  },
+
+  "inputErrors": {
+    "default": "",
+    "mailNotValid": "Kein gültige EMail Adresse",
+    "alreadyExists": "Der Benutzername existiert bereits",
+    "noClinges": "Keine <> {} [] ()",
+    "minNumberOne": "Mindestens eine Ziffer",
+    "minTwoLetters": "Mindestens zwei Buchstaben",
+    "noSpaces": "Keine Leerzeichen",
+    "noSpace": "Keine Leerzeichen",
+    "noNumbers": "Keine Zahlen",
+    "justNumbers": "Nur Ziffern",
+    "noSpecial": "Keine Sonderzeichen",
+    "maxTwentyLetters": "Maximal 20 Zeichen",
+    "minEightLetters": "Mindestens acht Zeichen eingeben",
+    "notChecked": "Bitte zustimmen",
+    "noPwMatch": "Das Password stimmt nicht überein",
+    "amountError": "Die Menge muss eine Zahl sein",
+    "unitError": "Die Einheit soll",
+    "notValid" : "Ungültige Zeichen"
+    
+  },
+
+   "imprint": {
+    "header": "Impressum",
+    "info": "Angaben zum Diensteanbieter",
+    "phoneText": "Tel.: ",
+    "liabilityHeader": "Haftung für den Inhalte dieser Seite",
+    "liabilityText": "Wir sind stets bemüht, die Inhalte dieser Website aktuell und korrekt zu halten. Dennoch können wir keine Gewähr für die Vollständigkeit, Richtigkeit und Aktualität sämtlicher Inhalte übernehmen, insbesondere nicht für solche, die von Dritten stammen. Als Anbieter von Diensten sind wir nicht verpflichtet, übermittelte oder gespeicherte Informationen zu überwachen oder nach Hinweisen auf rechtswidrige Aktivitäten zu suchen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen gemäß den allgemeinen Gesetzen bleiben hiervon unberührt – auch wenn wir nicht für den Inhalt verantwortlich sind. Wenn Ihnen problematische oder rechtswidrige Inhalte auffallen, bitten wir Sie, uns rasch zu informieren. Die entsprechenden Kontaktdaten finden Sie im Impressum.",
+    "linksHeader": "Externe Links auf dieser Seite",
+    "linksText": "Unsere Website enthält Verweise auf externe Internetseiten. Für deren Inhalte übernehmen wir keine Verantwortung. Eine Haftung kommt nicht in Betracht, da uns keine Hinweise auf rechtswidrige Inhalte vorlagen und auch keine solchen bekannt geworden sind. Sollte sich dies ändern, entfernen wir die entsprechenden Verlinkungen umgehend. Wenn Sie auf rechtswidrige Links stoßen, benachrichtigen Sie uns bitte. Die Kontaktdaten finden Sie im Impressum.",
+    "copyrightHeader": "Hinweis zum Urheberrecht",
+    "copyrightText": "Sämtliche Inhalte dieser Website (Texte, Bilder, Videos etc.) unterliegen dem Urheberrecht. Bitte kontaktieren Sie uns, bevor Sie Inhalte weiterverbreiten, kopieren oder anderweitig nutzen – beispielsweise durch Veröffentlichung auf anderen Seiten. Bei unberechtigter Nutzung behalten wir uns rechtliche Schritte vor. Falls Sie Inhalte entdecken, die Urheberrechte verletzen, bitten wir um eine kurze Mitteilung.",
+    "onlineLinksHeader": "Zusätzliche Onlinepräsenzen",
+    "onlineLinksSubText": "Dieses Impressum gilt ebenfalls für",
+    "onlineLinksText": "Alle Inhalte sind urheberrechtlich geschützt",
+    "back" : "schließen"
+  },
+
+  "privacy" : {
+    "header" : "Datenschutzerklärung"
+  },
+
+  "help" : {
+    "landingPageText" : "Hilfe / Infos?",
+    "header" : "Was ist 'Simplify this life'?",
+    "headerThoughts" : "Der Gedanke",
+    "infoTextOne" : "Wer kennt es nicht? Man ist unterwegs und aus dem nichts hat man eine Idee...",
+    "ideasList" : ["Die Idee, was man seinem Kind zum Geburtstag schenkt...", "Welche Lebensmittel man noch für heute Abend braucht...", "Erledigungen die entfallen sind und noch gemacht werden müssen...", "Eine Checkliste für den Urlaub..."],
+    "infoTextTwo" : "Und noch vieles mehr!",
+    "organizeInfo" : "Natürlich gibt es viele Anwendungen mit denen man bereits alles kann. Jedoch sind viele dieser Anwendungen teilweise voll mit Funktionen, Optionen, Einstellungen, Möglichkeiten, etc. so vieles dass man nicht braucht. Ziel von 'Simplify this life' ist es den Kern, das Wichtigste so einfach und benutzerfreundlich wie möglich zu gestalten. Nur das Wesentliche, übersichtlich abgebildet.",
+    "steve" : "Steve Jobs sagte einmal: 'Einfachheit ist die höchste Form der Vollendung', deswegen ziert auch ein Schmetterling die Anwendung. Er ist so einfach in seinem Wesen und doch so hochkomplex in seiner Art und seiner Vielfalt.",
+    "infoTextThree" : "Aufgrund diesem Gedanken entstand 'Simplify this life'.",
+    "lifeButton" : "Fast alles wird über den sogenannten 'Life Button' in der Mitte gesteuert. Seine Aktion bezieht sich immer auf den aktuell geöffneten Inhalt, einfach ausprobieren.",
+    "featuresText" : "Aktuell besteht die Anwendung aus einer einfachen Einkaufsliste, einer Erledigungsliste und einem Familienbutton, um nach der Eingabe alle Infos bezüglich der Familienmitglieder auf einem Blick zu haben.",
+    "features" : {
+      "header" : "Anwendungen",
+      "shopping" : {
+        "header" : "Einkaufsliste",
+        "text" : "Über den Life Button (das Plus) öffnen sie das Eingabefeld um Einkäufe hinzuzufügen. Das erste Feld bezeichnet die Menge und die Art, das zweite Feld den Namen.",
+        "featureList" : ["Eingeben von Artikeln", "Editieren von bereits eingegebenen Artikeln", "Löschen von eingegebenen Artikeln", "Im Hintergrund sehen sie die letzten und häufigsten Ihrer Einkäufe"]
+      }
+    },
+    "moreFeatures" : "Weitere Anwendungen sind in Planung"
+  },
+
+  
+
+  "cookieBanner" : {
+    "header" : "Cookie Einstellungen",
+    "textOne" : "Wir verwenden Cookies, um den reibungslosen Ablauf und die Sicherheit zu gewährleisten. zB für die Authentifizeriungsprozesse und diverse In App Prozesse. Diese Cookies sind absolut notwendig um auf diese Anwedung zugreifen zu können.",
+    "textTwo" : "Weiters verwenden wir optionale Cookies um die Benutzererfahrung zu verbessern wie zB der Speicherung des gewählten Farbschemas, der ausgewählten Sprache etc. Diese Cookies sind optional und nicht nötig um die App verwenden zu können.",
+    "btnAll" : "Allow all cookies",
+    "btnNecc" : "Only necessary cookies",
+    "btnConfirm" : "Confirm selection"
+  }
+}

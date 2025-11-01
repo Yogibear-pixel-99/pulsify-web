@@ -1,0 +1,22 @@
+@use "@/styles/colors/colors";
+
+
+.main-content {
+    height: 100dvh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    > .main {
+        flex: 1;
+        background-color: colors.$main-bg-clr;
+        overflow-y: auto;
+    }
+}
+
+.cookie-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100dvw;
+    max-width: 768px;
+}

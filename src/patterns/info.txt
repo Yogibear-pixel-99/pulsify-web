@@ -1,0 +1,46 @@
+outsource the sign up component, maybe try form hook with error handling
+or create my own form handling
+
+AFTER!!!!  ----  set autocomplete to off in login and sign up
+
+
+
+
+--- COMPONENT FIX ROUTINE
+
+    - Check if user logged in
+        -redirect to main if not
+
+    - on each component, call getFirstname
+
+    - setHeader
+    - setFooter
+    - setFooterWrapper (show: false);
+
+
+--- RETHINK THE FETCH / LOCALSTORAGE GET FIRSTNAME
+
+
+
+
+NOTES!
+
+ Cornflakes
+ Nudeln
+Mia - Hose
+1 x - Senf
+LinkedIn - Gastro stressresistent und schlichtung handel verkauf spezialisierung
+LinkedIn - Meine Stärke durch viele Branchen - handel Kundenanalyse - Schichtarbeit präzision und führung -
+LinkedIn - spezialisierung statt quantität
+LinkedIn - Qualität braucht Zeit wie Levito Madre - manche Dinge kann man einfach nicht beschleunigen
+
+Arbeit In Header init get local Name or Ferch If Not exists
+Gelöscht am: 27. 10. 2025
+Arbeit Fetch First Name in Log In or Sign Up
+Gelöscht am: 27. 10. 2025
+Arbeit Save local only If Cookies are accepted
+Gelöscht am: 26. 10. 2025
+Arbeit Delete local Firstname in logout
+Gelöscht am: 27. 10. 2025
+Arbeit UserFeedback ob add note
+Gelöscht am: 26. 10. 2025th

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "descr": {
+      "landingPage": "An application to easily and conveniently manage all areas of life. Shopping lists, suggestions, tasks, children, pets, vacations, daily routines, etc."
+    }
+  },
+
+"test" : {
+  "testmail" : "Email for testing",
+  "testpassword" : "Password",
+  "click" : "Get Test Log In Data"
+},
+
+  "landingPage": {
+    "text": "Created to organize everything in one’s life as simply as possible.",
+    "sayings": [
+      {
+        "text": "Don’t let the little things distract you from the big ones.",
+        "author": "Joachim Pürcher"
+      },
+      {
+        "text": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "text": "We only see the world once, in childhood. The rest is memory.",
+        "author": "Louise Glück"
+      },
+      {
+        "text": "Simplicity is the highest form of perfection.",
+        "author": "Stephe Jobs"
+      }
+    ],
+    "infoText": "Simplify this life – created to help organize life more easily",
+    "infoButton": "More info about this..."
+  },
+
+  "header": {
+    "smallGreeting": "Welcome",
+    "appName": "Simplify this Life",
+    "mainMenuText": "Hello ",
+    "shopping": "Shopping List",
+    "toDo": "To-Do",
+    "family": "Family",
+    "finance": "Finance",
+    "trash": "Deleted"
+  },
+  "options": {
+    "buttonsName": {
+      "back": "Back",
+      "logOut": "Log out",
+      "logIn": "Log in",
+      "signUp": "Sign up",
+      "options": "Settings",
+      "close": "Close"
+    }
+  },
+
+  "auth": {
+    "logIn": {
+      "text": "Log in",
+      "button": "Let's go",
+      "success": "Login successful"
+    },
+    "signUp": {
+      "text": "Sign up",
+      "button": "Submit",
+      "success": "Registration successful"
+    },
+    "firebaseErrors": {
+      "noError": "No error",
+      "emailExists": "Email address already exists",
+      "wrongPassword": "Email address and password do not match",
+      "userNotExists": "User does not exist",
+      "emailPwNotMatch": "Email address or password is incorrect."
+    },
+    "signUpHeader": "Sign up",
+    "form": {
+      "firstName": {
+        "text": "Your first name",
+        "placeholderError": "You did not enter a name"
+      },
+      "email": {
+        "text": "Your email address",
+        "placeholderError": "Email address is missing"
+      },
+      "password": {
+        "text": "Your password",
+        "placeholderError": "Please set a password"
+      },
+      "confirmPw": {
+        "text": "Repeat password",
+        "placeholderError": "Please confirm your password"
+      },
+      "privacy": {
+        "firstText": "I accept the ",
+        "link": "Privacy Policy"
+      }
+    }
+  },
+
+  "features": {
+    "shopping": {
+      "mainHeader": "Shopping",
+      "inputForm": {
+        "amount": "Amount",
+        "unit": "Unit",
+        "name": "Name"
+      }
+    },
+    "toDo": {
+      "mainHeader": "To-Do"
+    },
+    "family": {
+      "mainHeader": "Family"
+    },
+    "finance": {
+      "mainHeader": "Finance"
+    }
+  },
+
+  "inputErrors": {
+    "default": "",
+    "mailNotValid": "Invalid email address",
+    "alreadyExists": "Username already exists",
+    "noClinges": "No <> {} [] ()",
+    "minNumberOne": "At least one number",
+    "minTwoLetters": "At least two letters",
+    "noSpaces": "No spaces",
+    "noSpace": "No spaces",
+    "noNumbers": "No numbers",
+    "justNumbers": "Numbers only",
+    "noSpecial": "No special characters",
+    "maxTwentyLetters": "Maximum 20 characters",
+    "minEightLetters": "Enter at least eight characters",
+    "notChecked": "Please agree",
+    "noPwMatch": "Passwords do not match",
+    "amountError": "Amount must be a number",
+    "unitError": "Unit should be",
+    "notValid": "Invalid characters"
+  },
+
+  "imprint": {
+    "header": "Imprint",
+    "info": "Information about the service provider",
+    "phoneText": "Tel.: ",
+    "liabilityHeader": "Liability for the content of this site",
+    "liabilityText": "We make every effort to keep the content of this website current and correct. However, we cannot guarantee the completeness, accuracy, or timeliness of all content, especially that provided by third parties. As a service provider, we are not obligated to monitor transmitted or stored information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected – even if we are not responsible for the content. If you notice problematic or illegal content, please inform us immediately. The relevant contact details can be found in the imprint.",
+    "linksHeader": "External links on this site",
+    "linksText": "Our website contains references to external websites. We assume no responsibility for their content. Liability is excluded, as there were no indications of illegal content and none have become known. Should this change, we will remove the corresponding links immediately. If you come across illegal links, please notify us. The contact details can be found in the imprint.",
+    "copyrightHeader": "Copyright notice",
+    "copyrightText": "All content on this website (texts, images, videos, etc.) is subject to copyright. Please contact us before redistributing, copying, or otherwise using any content – for example, by publishing it on other sites. In case of unauthorized use, we reserve the right to take legal action. If you discover content that infringes copyright, please inform us briefly.",
+    "onlineLinksHeader": "Additional online presences",
+    "onlineLinksSubText": "This imprint also applies to",
+    "onlineLinksText": "All content is protected by copyright",
+    "back": "Close"
+  },
+
+  "privacy": {
+    "header": "Privacy Policy"
+  },
+
+  "help": {
+    "landingPageText": "Help / Info?",
+    "header": "What is 'Simplify this life'?",
+    "headerThoughts": "The idea",
+    "infoTextOne": "Who doesn’t know it? You’re out and about and suddenly you have an idea...",
+    "ideasList": [
+      "The idea of what to give your child for their birthday...",
+      "Which groceries you still need for tonight...",
+      "Tasks that were postponed and still need to be done...",
+      "A checklist for your vacation..."
+    ],
+    "infoTextTwo": "And much more!",
+    "organizeInfo": "Of course, there are many apps that already let you do everything. However, many of these apps are packed with functions, options, settings, and features you don’t actually need. The goal of 'Simplify this life' is to make the essentials as simple and user-friendly as possible. Only what’s necessary, clearly presented.",
+    "steve": "Steve Jobs once said: 'Simplicity is the ultimate sophistication,' which is why a butterfly adorns the app. It is simple in its being yet highly complex in its nature and diversity.",
+    "infoTextThree": "From this idea, 'Simplify this life' was created.",
+    "lifeButton": "Almost everything is controlled via the so-called 'Life Button' in the center. Its action always relates to the currently open content — just give it a try.",
+    "featuresText": "Currently, the app includes a simple shopping list, a to-do list, and a family button to view all information about family members at a glance.",
+    "features": {
+      "header": "Features",
+      "shopping": {
+        "header": "Shopping List",
+        "text": "Using the Life Button (the plus), you open the input field to add purchases. The first field defines the amount and unit, the second field the name.",
+        "featureList": [
+          "Add items",
+          "Edit existing items",
+          "Delete entered items",
+          "In the background, you can see your most recent and frequent purchases"
+        ]
+      }
+    },
+    "moreFeatures": "More features are in development"
+  },
+
+  "cookieBanner": {
+    "header": "Cookie settings",
+    "textOne": "We use cookies to ensure smooth operation and security — e.g., for authentication processes and various in-app features. These cookies are absolutely necessary to access this application.",
+    "textTwo": "We also use optional cookies to improve user experience, such as saving the selected color scheme, chosen language, etc. These cookies are optional and not required to use the app.",
+    "btnAll": "Allow all cookies",
+    "btnNecc": "Only necessary cookies",
+    "btnConfirm": "Confirm selection"
+  }
+}

@@ -1,0 +1,67 @@
+@use "@/styles/colors/colors";
+
+html {
+  margin: 0 auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  max-width: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: colors.$html-bg-clr;
+}
+
+body {
+  margin: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  max-width: 768px;
+  width: 100dvw;
+}
+
+
+.all * {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.all *::-webkit-scrollbar {
+  display: none;
+}
+
+.all a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.all input {
+  border: none;
+  outline: none;
+
+  &:hover {
+    cursor:text;
+  }
+}
+
+.all button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(1.05);
+  }
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

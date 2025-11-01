@@ -1,0 +1,88 @@
+@use "@/styles/colors/colors";
+@use "@/styles/mixins";
+
+.main-content {
+  @include mixins.flex-dir-jc-ai(column, space-between, center);
+  gap: 24px;
+  background-color: colors.$main-bg-clr;
+  height: 100%;
+  text-align: center;
+  opacity: 1;
+}
+
+.quote-wrapper {
+  margin-top: auto;
+  @include mixins.flex-dir-jc-ai();
+
+  > q {
+    margin-top: 40px;
+  }
+}
+
+.author-name {
+  text-align: end;
+}
+
+.img-wrapper {
+  width: 200px;
+  > img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.fade-out {
+  transition: opacity ease-in-out 250ms;
+  opacity: 0;
+}
+
+.fade-out {
+  transition: opacity ease-in-out 250ms;
+  opacity: 1;
+}
+
+
+
+.bottom-wrapper {
+
+  @include mixins.flex-dir-jc-ai(row);
+  gap: 4px;
+  width: 100%;
+
+  > div {
+    @include mixins.flex-dir-jc-ai(row);
+  }
+
+  > div > div {
+    @include mixins.flex-dir-jc-ai(column);
+    gap: 4px;
+    > img {
+      width: 50px;
+    }
+  }
+}
+
+
+
+
+.bottom-img-wrapper {
+  height: 42px;
+  width: 42px;
+  filter: brightness(0.9);
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: colors.$main-bg-clr;
+  }
+
+  &:active {
+    background-color: colors.$input-bg-clr;
+  }
+
+  > img {
+    width: 100%;
+    height: 100%;
+  }
+}
