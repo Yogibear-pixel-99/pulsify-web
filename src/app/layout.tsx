@@ -14,14 +14,8 @@ import "@/styles/globals.scss";
 import "@/i18n/i18next";
 import { useTranslation } from "next-i18next";
 import { MetaHeader } from "@/meta/meta-header/meta-header";
-import { HeaderProvider } from "@/contexts/header/header-provider";
-import { FooterProvider } from "@/contexts/footer/footer-provider";
-import Header from "@/components/shared/header/header";
-import Footer from "@/components/shared/footer/footer";
 import styles from "./main-style.module.scss";
-import { FooterLifeButtonWrapperProvider } from "@/contexts/footer/footer-life-buttons-wrapper-provider";
-// import { AnimationProvider } from "@/services/contexts/animation-content-provider";
-import { AuthProvider } from "@/contexts/auth/auth-provider";
+import "./globals.scss";
 
 export default function SimplifyThisLifeLayout({
   children,
@@ -38,25 +32,7 @@ export default function SimplifyThisLifeLayout({
           descr={t("meta.descr.landingPage")}
         />
       </head>
-      <body className={`${styles["main-content"]} all`}>
-        <AuthProvider>
-          {/* <AnimationProvider> */}
-            <HeaderProvider>
-              <FooterProvider>
-                <FooterLifeButtonWrapperProvider>
-                  <div>
-                    <Header />
-                  </div>
-                  <div className={`${styles["main"]}`}>{children}</div>
-                  <div>
-                    <Footer />
-                  </div>
-                </FooterLifeButtonWrapperProvider>
-              </FooterProvider>
-            </HeaderProvider>
-          {/* </AnimationProvider> */}
-        </AuthProvider>
-      </body>
+      <body className={`${styles["main-content"]} all`}>{children}</body>
     </html>
   );
 }

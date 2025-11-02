@@ -54,3 +54,6 @@ export const financeBtn: string = baseRefHelper("/images/features/finance/financ
 
 // Features header icons
 export const headerShoppingBag: string = baseRefHelper("/images/features/shopping/shopping-bag-icon.svg");
+
+// Pulsify
+export const pulsifyLogoBg: string = baseRefHelper("/images/logos/logo-alone.svg");

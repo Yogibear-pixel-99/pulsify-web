@@ -1,0 +1,38 @@
+@use "@/styles/mixins" as *;
+
+
+.single-user-result {
+    @include flex-dir-jc-ai(row);
+    height: 120px;
+    // padding: 4px;
+    gap: 8px;
+    
+
+    > div {
+        height: 100%;
+    }
+
+    > div:nth-child(1) {
+        max-width: 50px;
+        background-color: red;
+    }
+}
+
+.sport-color {
+    background-color: rgb(193, 255, 193);
+}
+.kultur-color {
+    background-color: rgb(255, 238, 215);
+}
+.food-color {
+    background-color: rgb(255, 243, 229);
+}
+.concert-color {
+    background-color: rgb(255, 221, 230);
+}
+.family-color {
+    background-color: rgb(221, 253, 255);
+}
+.activity-color {
+    background-color: rgb(221, 255, 234);
+}

@@ -1,0 +1,6 @@
+@use "@/styles/mixins" as *;
+
+.settings-content {
+    @include flex-dir-jc-ai(row);
+    gap: 40px;
+}

@@ -1,0 +1,9 @@
+@use "@/styles/mixins" as *;
+
+
+.main-content {
+    @include flex-dir-jc-ai(column, center, center);
+    // background-color: white;
+
+    gap: 80px;
+}
