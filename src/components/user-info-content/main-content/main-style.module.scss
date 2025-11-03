@@ -4,6 +4,7 @@
 .main-content {
     @include flex-dir-jc-ai(column, center, center);
     // background-color: white;
-
+    height: 100dvh;
     gap: 80px;
+    overflow: hidden;
 }

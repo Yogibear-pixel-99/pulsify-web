@@ -5,13 +5,13 @@ import { MainContent } from "@/components/user-info-content/main-content/main-co
 
 export default function SimplifyThisLifePage() {
   return (
-<div className={`${styles['cookie-wrapper']}`}>
+
 
   
 
 <MainContent />
 
-</div>
+
 
   );
 }

@@ -99,3 +99,22 @@ animation: fade-out 250ms ease-in-out forwards;
 .pointers-none {
   pointer-events: none;
 }
+
+.deactivate {
+  overflow: hidden !important;
+  // filter: grayscale(1);
+  // pointer-events: none;
+}
+
+.deactivate-mask {
+  // filter:grayscale(1) !important;
+  overflow: hidden !important;
+  // pointer-events: none !important;
+  position: fixed;
+  inset: 0;
+  // height: 100dvh;
+  // width: 100dvw;
+  background-color: rgba(0, 0, 0, 0.685) !important;
+  // overflow: hidden;
+  z-index: 800;
+}

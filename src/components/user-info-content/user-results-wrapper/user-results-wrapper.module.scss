@@ -1,13 +1,7 @@
 @use "@/styles/mixins" as *;
 
 
-.single-result-container {
-  position: relative;
-  width: 100dvw;
-//   height: 100%;
-//   min-height: 100dvh;;
-//   z-index: -1;
-// background-image: url("/images/logos/logo-alone.svg");
-
+.result-wrapper {
+  height: 80dvh;
+  overflow: auto;
 }
-

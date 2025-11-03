@@ -33,12 +33,12 @@
 
 .all h3 {
   font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
-  font-size: 32px;
+  font-size: 26px;
   margin: 0;
   color: colors.$main-txt-clr;
 
   @media (max-width: 768px) {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 .all h4 {
@@ -54,7 +54,7 @@
 
 .txt-font {
   font-family: "red hat", sans-serif, "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: colors.$main-txt-clr;
 
@@ -63,26 +63,26 @@
   }
 }
 
-.txt-font-strong {
+.txt-font-bold {
   font-family: "red hat", sans-serif, "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: colors.$main-txt-clr;
 
   @media (max-width: 768px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 .small-txt-font {
   font-family: "red hat", sans-serif, "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
   color: colors.$main-txt-clr;
 
   @media (max-width: 768px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -183,11 +183,37 @@
   }
 }
 
-.std-link {
-  font-weight: 600;
-  color: colors.$link-txt-clr;
+// .std-link {
+//   font-weight: 600;
+//   color: colors.$link-txt-clr;
 
-  &:hover {
-    color: colors.$header-txt-clr;
+//   &:hover {
+//     color: colors.$header-txt-clr;
+//   }
+// }
+
+.navbar-font-bold {
+    font-family: "sansation bold", "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 16px;
+  // font-weight: 500;
+  letter-spacing: 0.5px;
+  // font-weight: 600;
+  color: black;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.navbar-font {
+    font-family: "sansation reg", "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 16px;
+  // font-weight: 500;
+  letter-spacing: 0.5px;
+  // font-weight: 600;
+  color: black;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
   }
 }

@@ -7,7 +7,7 @@ return (
       <>
         <title>{title}</title>
         <meta name="description" content={descr} />
-        <link rel="icon" href={baseRefHelper("/images/favicon.png")}></link>
+        <link rel="icon" href={baseRefHelper("/favicon.png")}></link>
     </>
 );
 }

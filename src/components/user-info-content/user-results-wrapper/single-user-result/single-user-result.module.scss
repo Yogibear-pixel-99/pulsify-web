@@ -1,38 +1,188 @@
 @use "@/styles/mixins" as *;
-
+@use "@/styles/colors/colors";
 
 .single-user-result {
-    @include flex-dir-jc-ai(row);
-    height: 120px;
-    // padding: 4px;
-    gap: 8px;
-    
+  @include flex-dir-jc-ai(row);
+  height: 150px;
+  gap: 8px;
+  position: relative;
 
-    > div {
-        height: 100%;
-    }
+  > div {
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    padding: 12px;
+    border: solid 1px gray;
+    border-radius: 12px;
+  }
 
-    > div:nth-child(1) {
-        max-width: 50px;
-        background-color: red;
-    }
+  > div:nth-child(2) {
+    padding: 0;
+  }
+
+  > div:nth-child(1) {
+    max-width: 50px;
+  }
+}
+
+.pin-wrapper {
+  @include flex-dir-jc-ai();
+  gap: 20px;
+  cursor: pointer;
+  // max-height: 100px;
+  transition: all ease-in-out 125ms;
+
+  &:hover {
+    background-color: colors.$navbar-hover-clr;
+    transform: scale(105%);
+  }
+
+  &:hover .opace-icon {
+    transition: all 200ms ease-in-out;
+    opacity: 0.2;
+  }
+}
+
+.pin-separator {
+  width: 30px;
+  height: 1px;
+  background-color: rgb(112, 186, 255);
+}
+
+.opace-icon {
+  opacity: 0;
+}
+
+.pin-img-wrapper {
+  position: relative;
+  height: 40px;
+  width: 40px;
+
+  > img {
+    height: 26px;
+    width: 26px;
+    @include absolute-center-left();
+  }
+
+  // > img:nth-child(1) {
+  //     width: 36px;
+  //     height: 36px;
+  // }
+
+  > img:nth-child(2) {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.company-wrapper {
+  width: 600px;
+  position: relative;
+}
+
+.company-text-wrapper {
+  @include flex-dir-jc-ai(column, space-between, flex-start);
+  height: 100%;
+  padding: 12px 0 12px 12px;
+  width: 350px;
+}
+
+.company-img {
+  display: block;
+  position: absolute;
+   inset: 0 0 0 140px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 0 0 0 5px;
+    z-index: 1;
+
+}
+
+.company-img-gradient {
+    position: absolute;
+    z-index: 2;
+    inset: 0 0 0 140px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0) 0%,
+    /* sichtbar */ rgba(255, 255, 255, 0) 75%,
+    /* Start Übergang */ rgba(255, 255, 255, 0.25) 80%,
+    rgba(255, 255, 255, 0.5) 85%,
+    rgba(255, 255, 255, 0.75) 90%,
+    rgba(255, 255, 255, 0.95) 95%,
+    /* leicht transparent */ rgba(255, 255, 255, 0.99) 105%
+      /* über das Bild hinausragend */
+  );
+}
+
+.company-text-wrapper {
+    position: relative;
+    z-index: 5;
+}
+
+.description-wrapper {
+  width: 400px;
+}
+
+
+
+.activity-banner {
+  padding: 2px 12px;
+  border: solid 1px grey;
+  border-radius: 12px;
+//   display: block;
+  width: fit-content;
+  margin: auto 0 0 auto;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
 }
 
 .sport-color {
-    background-color: rgb(193, 255, 193);
+  background-color: rgb(193, 255, 193);
 }
 .kultur-color {
-    background-color: rgb(255, 238, 215);
+  background-color: rgb(255, 238, 215);
 }
 .food-color {
-    background-color: rgb(255, 243, 229);
+  background-color: rgb(255, 151, 31);
 }
-.concert-color {
-    background-color: rgb(255, 221, 230);
+.concerts-color {
+  background-color: rgb(253, 87, 198);
 }
 .family-color {
-    background-color: rgb(221, 253, 255);
+  background-color: rgb(221, 253, 255);
 }
 .activity-color {
-    background-color: rgb(221, 255, 234);
+  background-color: rgb(41, 252, 59);
+}
+
+.culture-color {
+  background-color: rgb(245, 180, 0);
+}
+.sports-color {
+  background-color: rgb(0, 216, 245);
+}
+
+.bars-color {
+  background-color: rgb(127, 112, 255);
+}
+
+
+.overlay {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 100dvh);
+z-index: 900;
+max-height: 95dvh;
+width: 15dvw;
+max-width: 1000px;
+transition: transform ease-in-out 250ms;
+}
+
+.open-details-overlay {
+transform: translate(-50%, -50%);
 }
