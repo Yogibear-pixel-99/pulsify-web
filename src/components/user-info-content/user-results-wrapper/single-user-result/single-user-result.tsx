@@ -135,7 +135,7 @@ export function SingleUserResult({
           company.id === clickedCompanyId &&
           styles["open-details-overlay"]
         }`}>
-        <CompanyDetailsOverlay company={company} />
+        <CompanyDetailsOverlay company={company} handleCloseOverlay={handleCloseOverlay} />
       </div>
       {/* <div className="deactivate-mask"></div> */}
       <div
