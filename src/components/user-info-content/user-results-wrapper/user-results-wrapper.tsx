@@ -19,7 +19,7 @@ setOverlayOpen(false);
 }
 
   return (
-    <section className={`${styles['result-wrapper']} flex flex-col gap-4 ${overlayOpen && "deactivate"}`}>
+    <section className={`${styles['result-wrapper']} flex flex-col gap-8 ${overlayOpen && "deactivate"}`}>
       
       {companyDummyData.map((result) => {
         return <SingleUserResult key={result.id} company={result} overlayOpen={handleChildOpen} overlayClose={handleChildClose}/>

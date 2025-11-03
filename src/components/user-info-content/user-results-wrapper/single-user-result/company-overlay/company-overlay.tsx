@@ -13,7 +13,6 @@ export default function CompanyDetailsOverlay({company} : {company: CompanyDummy
       <address>
         <h3>Address</h3>
         <p>
-
         <span>{company.address.street}</span>
         <span>{company.address.city}</span>
         <span><a href={`tel:${company.phone}`}>{company.phone}</a></span>
@@ -25,7 +24,7 @@ export default function CompanyDetailsOverlay({company} : {company: CompanyDummy
         <h3>Details</h3>
         <p>
             <span><a href={company.google_maps.link}>Find us on google maps</a></span>
-            <span>Disance: ...calculating</span>
+            <span>Distance: ...calculating</span>
         </p>
       </section>
     </article>

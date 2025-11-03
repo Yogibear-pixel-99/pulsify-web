@@ -61,3 +61,43 @@
   background-color: rgb(112, 186, 255);
   border-radius: 2px;
 }
+
+.separator-mobile {
+  width: 60px;
+  height: 1px;
+  background-color: rgb(112, 186, 255);
+  border-radius: 2px;
+}
+
+.desktop-bar {
+    @media (max-width: 620px) {
+        display: none !important;
+    }
+}
+
+.mobile-bar {
+    display: none !important;
+
+    @media (max-width: 620px) {
+        display: flex !important;
+       flex-direction: column !important;
+    }
+    > li {
+        width: 100%;
+
+        > button {
+            width:100%;
+        }
+
+         &:first-child > button {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 0 !important;
+      }
+
+         &:last-child > button {
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 16px;
+      }
+    }
+}

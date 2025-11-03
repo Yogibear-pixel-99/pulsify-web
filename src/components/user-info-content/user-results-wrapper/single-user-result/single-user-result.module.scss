@@ -3,18 +3,26 @@
 
 .single-user-result {
   @include flex-dir-jc-ai(row);
-  height: 150px;
+//   height: 150px;
   gap: 8px;
   position: relative;
 
-  > div {
-    height: 100%;
-    overflow: hidden;
-    background-color: white;
-    padding: 12px;
+  @media (max-width: 1150px) {
+    flex-direction: column;
     border: solid 1px gray;
     border-radius: 12px;
+    background-color: white;
   }
+
+  @media (max-width: 620px) {
+    flex-direction: column;
+    border: solid 1px gray;
+    border-radius: 12px;
+    background-color: white;
+    width: 98dvw;
+  }
+
+
 
   > div:nth-child(2) {
     padding: 0;
@@ -22,25 +30,68 @@
 
   > div:nth-child(1) {
     max-width: 50px;
+
+    @media (max-width: 1150px) {
+        display: none;
+    }
   }
 }
+
+ .single-content {
+    height: 150px;
+    overflow: hidden;
+    background-color: white;
+    padding: 12px;
+    border: solid 1px gray;
+    border-radius: 12px;
+
+    @media (max-width: 1150px) {
+        border: none;
+        height: fit-content;
+    }
+  }
+
 
 .pin-wrapper {
   @include flex-dir-jc-ai();
   gap: 20px;
   cursor: pointer;
-  // max-height: 100px;
+  height: 100%;
+  width: 100%;
   transition: all ease-in-out 125ms;
 
   &:hover {
     background-color: colors.$navbar-hover-clr;
-    transform: scale(105%);
+    // transform: scale(105%);
   }
 
   &:hover .opace-icon {
     transition: all 200ms ease-in-out;
     opacity: 0.2;
   }
+}
+
+.mobile-pin-wrapper {
+    display: none;
+    
+
+    @media (max-width: 1150px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+    }
+}
+
+.mobile-description-pin-wrapper {
+    @include flex-dir-jc-ai(row);
+    gap: 8px;
+
+    @media (max-width: 1150px) {
+        width: 100%;
+        // height: fit-content;
+    }
 }
 
 .pin-separator {
@@ -78,6 +129,21 @@
 .company-wrapper {
   width: 600px;
   position: relative;
+
+  &:hover {
+    filter: brightness(105%);
+    cursor: pointer;
+    // background-color: colors.$navbar-hover-clr;
+  }
+
+  @media (max-width: 1150px) {
+    height: 150px;
+  }
+
+  @media (max-width: 620px) {
+    height: 150px;
+    width: 100%;
+  }
 }
 
 .company-text-wrapper {
@@ -124,6 +190,10 @@
 
 .description-wrapper {
   width: 400px;
+
+      @media (max-width: 1150px) {
+        flex: 1;
+    }
 }
 
 
@@ -177,8 +247,9 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, 100dvh);
 z-index: 900;
-max-height: 95dvh;
-width: 15dvw;
+max-height: 800px;
+width: 98dvw;
+height: 98dvh;
 max-width: 1000px;
 transition: transform ease-in-out 250ms;
 }

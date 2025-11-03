@@ -41,7 +41,6 @@ export function SingleUserResult({
     setTimeout(() => {
       setShowOverlay(false);
       setClickedCompanyId(null);
-
     }, 500);
     overlayClose();
   };
@@ -57,7 +56,7 @@ export function SingleUserResult({
       {/* search bar */}
       <div
         onClick={pinElement}
-        className={`${styles["pin-wrapper"]} txt-font-bold`}>
+        className={`${styles["pin-wrapper"]} ${styles["single-content"]} txt-font-bold`}>
         <span>Pin</span>
         <div className={`${styles["pin-separator"]}`}></div>
         <div className={`${styles["pin-img-wrapper"]}`}>
@@ -72,7 +71,7 @@ export function SingleUserResult({
       </div>
 
       <div
-        className={`${styles["company-wrapper"]} flex`}
+        className={`${styles["company-wrapper"]} ${styles["single-content"]} flex`}
         onClick={handleOpenOverlay}>
         <div className={`${styles["company-img-gradient"]}`}>
           {" "}
@@ -101,9 +100,28 @@ export function SingleUserResult({
         </div> */}
       </div>
 
-      <div className={`${styles["description-wrapper"]}`}>
-        <h4>Description</h4>
-        <span>{company.description}</span>
+      <div className={`${styles['mobile-description-pin-wrapper']}`}>
+        <div
+          onClick={pinElement}
+          className={`${styles["mobile-pin-wrapper"]} ${styles["single-content"]} txt-font-bold`}>
+          <span>Pin</span>
+          <div className={`${styles["pin-separator"]}`}></div>
+          <div className={`${styles["pin-img-wrapper"]}`}>
+            {/* <img src={favoriteStar} alt="favorite icon" /> */}
+            {pinned && <img src={pulsifyPIcon} alt="pulsify icon" />}
+            <img
+              className={`${styles["opace-icon"]}`}
+              src={pulsifyPIcon}
+              alt="pulsify icon"
+            />
+          </div>
+        </div>
+
+        <div
+          className={`${styles["description-wrapper"]} ${styles["single-content"]}`}>
+          <h4>Description</h4>
+          <span>{company.description}</span>
+        </div>
       </div>
 
       <div

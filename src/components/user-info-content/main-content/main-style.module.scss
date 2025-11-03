@@ -7,4 +7,8 @@
     height: 100dvh;
     gap: 80px;
     overflow: hidden;
+
+    @media (max-width: 620px) {
+        gap: 20px;
+    }
 }
