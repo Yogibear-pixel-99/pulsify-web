@@ -10,7 +10,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: colors.$html-bg-clr;
+  background: linear-gradient(135deg, #5a1681, #822854, #255180);
+
+
 }
 
 body {

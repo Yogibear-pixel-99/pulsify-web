@@ -25,6 +25,7 @@ export default function SimplifyThisLifeLayout({
   const { t } = useTranslation();
 
   return (
+    
     <html lang="de" className="color-hope all">
       <head>
         <MetaHeader

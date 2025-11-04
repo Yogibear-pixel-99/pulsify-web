@@ -16,7 +16,7 @@ export default function CompanyDetailsOverlay({
 }) {
   return (
     <article className={`${styles["company-overlay-content"]}`}>
-      <header>
+      <header className="pad-txt-box">
         <div className={`${styles["company-name-wrapper"]}`}>
           <h2>
             {company.name}{" "}
