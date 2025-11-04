@@ -4,4 +4,6 @@
 .result-wrapper {
   height: 80dvh;
   overflow: auto;
+  @include flex-dir-jc-ai(column, flex-start, center);
+  gap: 20px;
 }

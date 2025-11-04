@@ -256,7 +256,7 @@ export const companyDummyData: CompanyDummyData[] = [
   },
   {
     id: 14,
-    name: "culturebrauerei",
+    name: "Kulturbrauerei",
     category: "culture",
     address: { street: "Schönhauser Allee 36", city: "Berlin" },
     phone: "+49 30 987654",

@@ -15,7 +15,7 @@ import "@/i18n/i18next";
 import { useTranslation } from "next-i18next";
 import { MetaHeader } from "@/meta/meta-header/meta-header";
 import styles from "./main-style.module.scss";
-import "./globals.scss";
+// import "./globals.scss";
 
 export default function SimplifyThisLifeLayout({
   children,

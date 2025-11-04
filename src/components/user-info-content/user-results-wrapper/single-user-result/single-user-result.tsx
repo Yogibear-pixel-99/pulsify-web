@@ -120,7 +120,7 @@ export function SingleUserResult({
         <div
           className={`${styles["description-wrapper"]} ${styles["single-content"]}`}>
           <h4>Description</h4>
-          <span>{company.description}</span>
+          <span className="txt-font">{company.description}</span>
         </div>
       </div>
 

@@ -8,6 +8,10 @@
     @include flex-dir-jc-ai(row);
     background-color: white;
     border-radius: 16px; // für die ganze Leiste
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
 
     > li {
       > button {

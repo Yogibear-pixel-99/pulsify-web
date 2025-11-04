@@ -1,3 +1,5 @@
+"use client"
+
 import { CompanyDummyData } from "@/components/user-info-content/company-data-dummy";
 import styles from "./company-overlay.module.scss";
 import {
@@ -40,32 +42,32 @@ export default function CompanyDetailsOverlay({
         </div>
         <section>
           <h3>Description</h3>
-          <p>{company.description}</p>
+          <p className="txt-font">{company.description}</p>
         </section>
         <section>
           <h3>Location</h3>
-          <p className={`${styles["location-wrapper"]}`}>
-            <span>
+          <div className={`${styles["location-wrapper"]}`}>
+            <span className="txt-font">
               Find us on google maps! </span>
               <a href={company.google_maps.link} target="_blank">
                 <div className={`${styles["location-icon-wrapper"]}`}>
                   <img src={locationIcon} alt="location icon" />
                 </div>
               </a>
-           </p>
+           </div>
            <p>
 
-            <span>Distance: ...calculating</span>
+            <span className="txt-font">Distance: ...calculating</span>
           </p>
         </section>
         <address>
           <h3>Address</h3>
           <p>
-            <span>{company.address.street}</span>
+            <span className="txt-font">{company.address.street}</span>
             <br></br>
-            <span>{company.address.city}</span>
+            <span className="txt-font">{company.address.city}</span>
             <br></br>
-            <span>
+            <span className="txt-font">
               <a href={`tel:${company.phone}`}>{company.phone}</a>
             </span>
           </p>

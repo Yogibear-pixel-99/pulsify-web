@@ -1,7 +1,6 @@
 "use client";
 
-import { time } from "console";
-import styles from "./user-settings.module.scss";
+import styles from "./user-settings-bar.module.scss";
 import {
   locationIcon,
   calenderIcon,
@@ -17,35 +16,35 @@ export function UserSettingsBar() {
         <li>
           <button>
             <img src={locationIcon} alt="gps icon" />
-            <span>Location</span>
+            <span className="navbar-font">Location</span>
           </button>
         </li>
         <div className={`${styles["separator"]}`}></div>
         <li>
           <button>
             <img src={calenderIcon} alt="calender icon" />
-            <span>Date</span>
+            <span className="navbar-font">Date</span>
           </button>
         </li>
         <div className={`${styles["separator"]}`}></div>
         <li>
           <button>
             <img src={timeIcon} alt="time icon" />
-            <span>Time</span>
+            <span className="navbar-font">Time</span>
           </button>
         </li>
         <div className={`${styles["separator"]}`}></div>
         <li>
           <button>
             <img src={searchIcon} alt="search icon" />
-            <span>Searchprofile</span>
+            <span className="navbar-font">Searchprofile</span>
           </button>
         </li>
         <div className={`${styles["separator"]}`}></div>
         <li>
           <button>
             <img src={pulsifyPIcon} alt="pulsify icon" />
-            <span>Puls now</span>
+            <span className="navbar-font">Puls now</span>
           </button>
         </li>
       </ul>
@@ -54,35 +53,35 @@ export function UserSettingsBar() {
         <li>
           <button>
             <img src={locationIcon} alt="gps icon" />
-            <span>Location</span>
+            <span className="navbar-font">Location</span>
           </button>
         </li>
         <div className={`${styles["separator-mobile"]}`}></div>
         <li>
           <button>
             <img src={calenderIcon} alt="calender icon" />
-            <span>Date</span>
+            <span className="navbar-font">Date</span>
           </button>
         </li>
         <div className={`${styles["separator-mobile"]}`}></div>
         <li>
           <button>
             <img src={timeIcon} alt="time icon" />
-            <span>Time</span>
+            <span className="navbar-font">Time</span>
           </button>
         </li>
         <div className={`${styles["separator-mobile"]}`}></div>
         <li>
           <button>
             <img src={searchIcon} alt="search icon" />
-            <span>Searchprofile</span>
+            <span className="navbar-font">Searchprofile</span>
           </button>
         </li>
         <div className={`${styles["separator-mobile"]}`}></div>
         <li>
           <button>
             <img src={pulsifyPIcon} alt="pulsify icon" />
-            <span>Puls now</span>
+            <span className="navbar-font">Puls now</span>
           </button>
         </li>
       </ul>

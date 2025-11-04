@@ -1,7 +1,7 @@
 
 export function baseRefHelper (imgPath:string) {
 
-const baseRef = "/simplifyNEWTEST";
+const baseRef = "/pulsifytest";
 
     if (process.env.NODE_ENV === "production") {
         return baseRef + imgPath;

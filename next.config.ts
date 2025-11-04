@@ -19,8 +19,8 @@
 
 const isExport = process.env.NODE_ENV === 'production';
 
-const basePath = isExport ? '/simplifyNEWTEST' : '';
-const assetPrefix = isExport ? '/simplifyNEWTEST' : '';
+const basePath = isExport ? '/pulsify' : '';
+const assetPrefix = isExport ? '/pulsify' : '';
 
 const nextConfig = {
   output: 'export',
